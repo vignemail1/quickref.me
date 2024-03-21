@@ -996,6 +996,10 @@ echo $ans
 read -n 1 ans    # Just one character
 ```
 
+```bash
+read -s -p "Password? " password # Characters are not echoed, useful for secret
+```
+
 
 ### Conditional execution
 
